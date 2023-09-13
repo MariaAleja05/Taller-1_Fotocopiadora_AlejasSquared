@@ -1,4 +1,4 @@
-# Taller_1_Fotocopiadoras_Industriales
+# Taller #1
 ### Fecha:  13-09-2023
 ### **Nombre del equipo:** Fotocopiadoras Industriales
 ### **Logo:** (FALTA)

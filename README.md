@@ -5,9 +5,26 @@
 ### 1. El resultado de nuestro Python Beginner Quiz:
     (INGRESAR FOTO)
 ### 2. Realice un programa que lea tres números reales y determine cuál es el mayor.
-* (EXPLICACIÓN)
+* Para este punto debíamos realizar un programa que leyera tres números reales y determinara cuál es el mayor. Primero declaramos que las variables que ingresara el usuario debian ser números reales (float), y posteriormente con una estructura if-elif comparamos cada una de las variables para determinar la mayor. ( Ver documento )
 ```pseudocode
-(COPIAR EL CÓDIGO)
+print("-------------------------------------------------------")
+print("Determinar cual número es mayor")
+print("-------------------------------------------------------")
+#Entradas
+print("Ingrese tres números reales: ")
+a=float( input("a: "))
+b=float( input("b: "))
+c=float( input("c: "))
+#Proceso
+if a > b and a > c:
+  print("El número mayor es:")
+  print(a) 
+elif b > a and b > c:
+  print("El número mayor es:")
+  print(b)
+elif c > a and c > b:
+ print("El número mayor es:")
+ print(c)
 ```
 ### 3. Enunciado: Realice un programa que lea un número enteros y determine si es par o impar.
 * (EXPLICACIÓN)

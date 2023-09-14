@@ -5,7 +5,7 @@
 ### 1. El resultado de nuestro Python Beginner Quiz:
     (INGRESAR FOTO)
 ### 2. Realice un programa que lea tres números reales y determine cuál es el mayor.
-* Para este punto debíamos realizar un programa que leyera tres números reales y determinara cuál es el mayor. Primero declaramos que las variables que ingresara el usuario debian ser números reales (float), y posteriormente con una estructura if-elif comparamos cada una de las variables para determinar la mayor. ( Ver documento )
+* Para este punto debíamos realizar un programa que leyera tres números reales y determinara cuál es el mayor. Primero declaramos que las variables que ingresara el usuario debian ser números reales (float), y posteriormente con una estructura if-elif comparamos cada una de las variables para determinar la mayor. ( Ver documento (http:)
 ```pseudocode
 print("-------------------------------------------------------")
 print("Determinar cual número es mayor")

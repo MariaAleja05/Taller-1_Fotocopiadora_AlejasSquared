@@ -81,5 +81,86 @@ else:
 ### 9. Enunciado: Escriba un programa que reciba el nombre en minúsculas de un país de America y retorne la ciudad capital, si el país no pertenece al continente debe arrojar país no identificado.
 * (EXPLICACIÓN)
 ```pseudocode
-
+print("-------------------------------------------------------")
+print("Determinar la capital del pais de América ingresado")
+print("-------------------------------------------------------")
+#Entradas
+pais: str
+print("Ingrese un país de América: ")
+pais=str( input("pais: "))
+pais=pais.lower()
+print(pais)
+#Proceso
+if pais=="canada" or pais=="canadá":
+  print("La capital es Otawwa")
+elif pais=="estados unidos":
+  print("La capital es Washington DC")
+elif pais=="mexico" or pais=="méxico":
+  print("La capital es México DF")
+elif pais=="belice":
+  print("La capital es Belmopán")
+elif pais=="costa rica":
+  print("La capital es San José")
+elif pais=="el salvador":
+  print("La capital es San Salvador")
+elif pais=="Guatemala":
+  print("La capital es Ciudad de Guatemala")
+elif pais=="Honduras":
+  print("La capital es Tegucigalpa")
+elif pais=="nicaragua":
+  print("La capital es Mnagua")
+elif pais=="panama" or pais=="panamá":
+  print("La capital es Panamá")
+elif pais=="argentina":
+  print("La capital es Buenos Aires")
+elif pais=="bolivia":
+  print("La capital es Sucre")
+elif pais=="brasil":
+  print("La capital es Brasilia")
+elif pais=="chile":
+  print("La capital es Santiago de Chile")
+elif pais=="colombia":
+  print("La capital es Bogotá")
+elif pais=="ecuador":
+  print("La capital es Quito")
+elif pais=="paraguay":
+  print("La capital es Asunción")
+elif pais=="peru" or pais=="perú":
+  print("La capital es Lima")
+elif pais=="surinam":
+  print("La capital es Parabarimo")
+elif pais=="trinidad y tobago":
+  print("La capital es Puerto España")
+elif pais=="uruguay":
+  print("La capital es Montevideo")
+elif pais=="venezuela":
+  print("La capital es Caracas")
+elif pais=="antigua y barbuda":
+  print("La capital es Saint John")
+elif pais=="bahamas":
+  print("La capital es Nasáu")
+elif pais=="barbados":
+  print("La capital es Bridgetown")
+elif pais=="cuba":
+  print("La capital es La Habana")
+elif pais=="dominica":
+  print("La capital es Roseau")
+elif pais=="granada":
+  print("La capital es Saint George")
+elif pais=="guyana":
+  print("La capital es Georgetown")
+elif pais=="haiti" or pais=="haití":
+  print("La capital es Puerto Príncipe")
+elif pais=="jamaica":
+  print("La capital es Kingston")
+elif pais=="republica conminicana":
+  print("La capital es Santo Domingo")
+elif pais=="san cristobal y nieves" or pais=="san cristóbal y nieves":
+  print("La capital es Basseterre")
+elif pais=="san vicente y las granadinas":
+  print("La capital es Kingstown")
+elif pais=="santa lucia" or pais=="santa lucía":
+  print("La capital es Castries")
+else:
+  print("país no identificado")
 ```

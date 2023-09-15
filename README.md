@@ -74,6 +74,28 @@ else:
   Primero, determinamos cuáles serían nuestras variables y realizamos un código para que el usuario ingresara tres números.
   Después, realizamos la suma de los dos primeros números ingresados y, para determinar su relación con respecto al tercer número, mediante el uso de condicionales; igualamos, utilizamos el signo de mayor que, y el signo de menor que. Para el enunciado con que la suma resulte verdadera, el programa mostrará con cuál de estos casos se relaciona.
 * Ver documento: Punto_5
+* Diagrama de flujo:
+```mermaid
+flowchart TB;
+    A([START])--> B[/"primer_numero:int=0 ; segundo_numero:int=0 ; tercer_numero:int=0 ; suma:int=0"/]
+    B --> C[Ingrese el primer número:]
+    C --> D[/primer_numero/]
+    D --> E[Ingrese el segundo número:]
+    E --> F[/segundo_numero/]
+    F --> G[Ingrese el tercer número:]
+    G --> H[/tercer_numero/]
+    H --> I["suma = primer_numero + segundo_numero"]
+    I -->J{tercer_numero > suma}
+    J -- SI --> K["El tercer número es mayor que la suma de los dos primeros números"]
+    J -- NO --> L{tercer_numero < suma}
+    L -- SI --> M["El tercer número es menor que la suma de los dos primeros números"]
+    L -- NO --> N["El tercer número es igual que la suma de los dos primeros números"]
+    K -----> O([  ])
+    M ----> O
+    N ----> O
+    O --> P([END])
+```
+* Código:
 ```pseudocode
 print("-------------------------------------------------------")
 print("Determinar si la suma de los dos primeros números es mayor, menor o igual que un tercer número")
@@ -101,7 +123,12 @@ else:
 ### 6. Enunciado: Escriba un programa que solicite al usuario una letra y determine si es una vocal o una consonante.
 * En este punto nuestro objetivo debía ser escribir un programa que solicitara al usuario una letra y determinara si era una vocal o una consonante.
   Con una estructura if-else y utilizando el conector or, definimos las vocales y las letras. (Tambien tuvimos en cuenta las mayúsculas, por eso se ve larguísimo :))
-- Ver documento: Sonidos_y_maneras.py
+* Ver documento: Sonidos_y_maneras.py
+* Diagrama de flujo:
+```mermaid
+(DIAGRAMA)
+```
+* Código:
 ```pseudocode
 print("-------------------------------------------------------")
 print("Determinar si una letra es vocal o consonante")

@@ -1,6 +1,6 @@
 # Taller #1
 ### Fecha:  13-09-2023
-### **Nombre del equipo:** Fotocopiadoras Industriales
+### **Nombre del equipo:** Fotocopiadora AlejasSquared
   **Integrantes del equipo:** María Alejandra Niño Peña y María Alejandra Varela
 ### **Logo:** (FALTA)
 ### 1. El resultado de nuestro Python Beginner Quiz:

@@ -1,6 +1,7 @@
 # Taller #1
 ### Fecha:  13-09-2023
 ### **Nombre del equipo:** Fotocopiadoras Industriales
+  **Integrantes del equipo:** María Alejandra Niño Peña y María Alejandra Varela
 ### **Logo:** (FALTA)
 ### 1. El resultado de nuestro Python Beginner Quiz:
 <img width="960" alt="Test Python" src="https://github.com/MariaAleja05/Taller-1_Fotocopiadoras-Industriales/assets/141857519/dd8f14b5-9e37-45e6-90c7-20cff5a15d02">

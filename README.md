@@ -30,7 +30,11 @@ elif c > a and c > b:
  print(c)
 ```
 ### 3. Enunciado: Realice un programa que lea un número enteros y determine si es par o impar.
-* (EXPLICACIÓN)
+* En este programa debíamos determinar si un número ingresado por el usuario era par o impar.
+  Primero determinamos cúales serían nuestras variables y de que tipo serían (n : int = 0)
+  Despues para determinar si es par, haciendo uso de un condicional, calculamos si el residuo de este número dividido entre 2 era 0, ya que todo número par es divisible por 2 este debería ser su resultado si resulta ser afirmativo.
+  De no ser así, significa que el número ingresado es impar.
+* Ver documento: Punto_3
 ```pseudocode
 print("-------------------------------------------------------")
 print("Determinar si el número entero es par o impar")
@@ -50,7 +54,6 @@ else:
   Como en el punto #2 lo primero que hicimos fue declarar que los números que ingresara el usuario debían ser reales (float), depués con una estructura if-else condicionamos con un operador de asignacion con residuo igualado a cero.
 * Ver documeto:
   Amigo_o_enemigo.py
-  
 ```pseudocode
 print("-------------------------------------------------------")
 print("Determinar cual número es mayor")
@@ -66,7 +69,10 @@ else:
     print(f"{a} No es múltiplo de {b}")
 ```
 ### 5. Enunciado: Realice un programa que lea tres números reales y determine si la suma de los dos primeros es mayor, menor o igual que el tercer número.
-* (EXPLICACIÓN)
+* En este programa se debe determinar si la suma total de dos números ingresados es mayor, menor o igual que un tercer número.
+  Primero, determinamos cuáles serían nuestras variables y realizamos un código para que el usuario ingresara tres números.
+  Después, realizamos la suma de los dos primeros números ingresados y, para determinar su relación con respecto al tercer número, mediante el uso de condicionales; igualamos, utilizamos el signo de mayor que, y el signo de menor que. Para el enunciado con que la suma resulte verdadera, el programa mostrará con cuál de estos casos se relaciona.
+* Ver documento: Punto_5
 ```pseudocode
 print("-------------------------------------------------------")
 print("Determinar si la suma de los dos primeros números es mayor, menor o igual que un tercer número")
@@ -115,7 +121,8 @@ elif n == "q" or n == "w"  or n == "r" or n == "t" or n == "y" or n == "p" or n 
 - Ordenar los números de forma descendente
 - La potencia del mayor número elevado al menor número
 - La raíz cúbica del menor número
-* Aquí subimos el videíto de la explicación porque está un poquito larga 
+* Puedes ver la explicación de este ejercicio en el siguiente link: (SUBIR LINK DE YOUTUBE)
+* Ver documento: Punto_7
 ```pseudocode
 print("-------------------------------------------------------")
 print("Calcular el promedio, mediana, promedio multiplicativo, ordenar los números de manera ascendente y descendente, potencia del mayor número y raíz cúbica menor número")
@@ -764,7 +771,10 @@ elif 10**18 <= n < 10**20:
     print(f"Una onda con frecuencia {n} puede ser una onda de Rayos X o Rayos Gamma, su longitud aproximada puede ser desde el tamaño de un átomo (0,1nm)) hasta el tamaño de un núcleo atómico (0,001nm)")
 ```
 ### 9. Enunciado: Escriba un programa que reciba el nombre en minúsculas de un país de America y retorne la ciudad capital, si el país no pertenece al continente debe arrojar país no identificado.
-* (EXPLICACIÓN)
+* Este programa muestra la capital de un país ingresado por el usuario.
+  Primero, determinamos nuestras variables y haciendo uso de: *lower()* nos aseguramos de que todas las letras del país ingresado por el usuario quedaran definidas en letras minúsculas.
+  Despues, realizamos una serie de condicionales para cada país del contiente americano donde dentro del condicional se busca que el país ingresado corresponda a esa opción y, en caso de ser afirmativo el programa mostrará la capital de este mismo.
+* Ver documento: Punto_9
 ```pseudocode
 print("-------------------------------------------------------")
 print("Determinar la capital del pais de América ingresado")

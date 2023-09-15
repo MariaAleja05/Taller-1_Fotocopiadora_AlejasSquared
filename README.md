@@ -117,7 +117,627 @@ elif n == "q" or n == "w"  or n == "r" or n == "t" or n == "y" or n == "p" or n 
 - La raíz cúbica del menor número
 * Aquí subimos el videíto de la explicación porque está un poquito larga 
 ```pseudocode
+print("-------------------------------------------------------")
+print("Calcular el promedio, mediana, promedio multiplicativo, ordenar los números de manera ascendente y descendente, potencia del mayor número y raíz cúbica menor número")
+print("-------------------------------------------------------")
+#Entradas
+a: float = 0.0
+b: float = 0.0
+c: float = 0.0
+d: float = 0.0
+e: float = 0.0
+promedio: float = 0.0
+multiplicacion: float = 0.0
+raiz: float = 0.0
+mayor: float = 0.0
+menor: float = 0.0
+potencia: float = 0.0
+cubica_a: float = 0.0
+cubica_b: float = 0.0
+cubica_c: float = 0.0
+cubica_d: float = 0.0
+cubica_e: float = 0.0
+print("Ingresa cinco números: ")
+a=float( input("a: "))
+b=float( input("b: "))
+c=float( input("c: "))
+d=float( input("d: "))
+e=float( input("e: "))
 
+#Proceso promedio
+print("-------------------------------------------------------")
+promedio=(a+b+c+d+e)/5
+print(f"Promedio = {promedio}")
+print("-------------------------------------------------------")
+
+#Proceso mediana
+print("-------------------------------------------------------")
+print("Esta es la mediana:")
+#"a" es la mediana
+if c > d > a > b > e or c > d > a > e > b or c > e > a > d > b or c > e > a > b > d or c > b > a > d > e or c > b > a > e > d or d > c > a > b > e or d > c > a > e > b or d > e > a > c > b or d > e > a > b > c or d > b > a > c > e or d > b > a > e > c or e > c > a > b > d or e > c > a > d > b or e > d > a > c > b or e > d > a > b > c or c > d > a > b > e or c > d > a > e > b or c > e > a > d > b or c > e > a > b > d or c > b > a > d > e or c > b > a > e > d or d > c > a > b > e or d > c > a > e > b:
+    print(a)
+#"b" es la mediana
+if a > c > b > d > e or a > c > b > e > d or a > d > b > c > e or a > d > b > e > c or a > e > b > c > d or a > e > b > d > c or c > a > b > d > e or c > a > b > e > d or c > d > b > a > e or c > d > b > e > a or c > e > b > a > d or c > e > b > d > a or d > a > b > c > e or d > a > b > e > c or d > c > b > a > e or d > c > b > e > a or d > e > b > a > c or d > e > b > c > a or e > a > b > c > d or e > a > b > d > c or e > c > b > a > d or e > c > b > d > a or e > d > b > a > c or e > d > b > c > a:
+    print(b)
+#"c" es la mediana
+if a > b > c > d > e or a > b > c > e > d or a > d > c > b > e or a > d > c > e > b or a > e > c > b > d or a > e > c > d > b or b > a > c > d > e or b > a > c > e > d or b > d > c > a > e or b > d > c > e > a or b > e > c > a > d or b > e > c > d > a or d > a > c > b > e or d > a > c > e > b or d > b > c > a > e or d > b > c > e > a or d > e > c > a > b or d > e > c > b > a or e > a > c > b > d or e > a > c > d > b or e > b > c > a > d or e > b > c > d > a or e > d > c > a > b or e > d > c > b > a:
+    print(c)
+#"d" es la mediana
+if a > b > d > c > e or a > b > d > e > c or a > c > d > b > e or a > c > d > e > b or a > e > d > b > c or a > e > d > c > b or b > a > d > c > e or b > a > d > e > c or b > c > d > a > e or b > c > d > e > a or b > e > d > a > c or b > e > d > c > a or c > a > d > b > e or c > a > d > e > b or c > b > d > a > e or c > b > d > e > a or c > e > d > a > b or c > e > d > b > a or e > a > d > b > c or e > a > d > c > b or e > b > d > a > c or e > b > d > c > a or e > c > d > a > b or e > c > d > b > a:
+    print(d)
+#"e" es la mediana
+if b > c > e > a > d or b > c > e > a > d or b > c > e > d > a or b > c > e > d > a or b > d > e > a > c or b > d > e > a > c or b > d > e > c > a or b > d > e > c > a or c > b > e > a > d or c > b > e > a > d or c > b > e > d > a or c > b > e > d > a or c > e > b > a > d or c > e > b > a > d or c > e > b > d > a or c > e > b > d > a or d > b > e > a > c or d > b > e > a > c or d > b > e > c > a or d > b > e > c > a or d > c > e > a > b or d > c > e > a > b or d > c > e > b > a or d > c > e > b > a:
+    print(e)
+print("-------------------------------------------------------")
+
+#Proceso promedio multiplicativo
+print("-------------------------------------------------------")
+multiplicacion=a*b*c*d*e
+raiz=multiplicacion**(1/5)
+print(f"Promedio multiplicativo = {raiz}")
+print("-------------------------------------------------------")
+
+#Proceso número ascendentes
+print("-------------------------------------------------------")
+print("Este es el orden ascendente:")
+if a<b<c<d<e:
+  print(f"{a}, {b}, {c}, {d}, {e}")
+elif a<b<c<e<d:
+  print(f"{a}, {b}, {c}, {e}, {d}")
+elif a<b<d<c<e:
+  print(f"{a}, {b}, {d}, {c}, {e}")
+elif a<b<d<e<c:
+  print(f"{a}, {b}, {d}, {e}, {c}")
+elif a<b<e<c<d:
+  print(f"{a}, {b}, {e}, {c}, {d}")
+#5
+elif a<b<e<d<c:
+  print(f"{a}, {b}, {e}, {d}, {c}")
+elif a<c<b<d<e:
+  print(f"{a}, {c}, {b}, {d}, {e}")
+elif a<c<b<e<d:
+  print(f"{a}, {c}, {b}, {e}, {d}")
+elif a<c<d<b<e:
+  print(f"{a}, {c}, {d}, {b}, {e}")
+elif a<c<d<e<b:
+  print(f"{a}, {c}, {d}, {e}, {b}")
+#10
+elif a<c<e<b<d:
+  print(f"{a}, {c}, {e}, {b}, {d}")
+elif a<c<e<d<b:
+  print(f"{a}, {c}, {e}, {d}, {b}")
+elif a<d<b<c<e:
+  print(f"{a}, {d}, {b}, {c}, {e}")
+elif a<d<b<e<c:
+  print(f"{a}, {d}, {b}, {e}, {c}")
+elif a<d<c<b<e:
+  print(f"{a}, {d}, {c}, {b}, {e}")
+#15
+elif a<d<c<e<b:
+  print(f"{a}, {d}, {c}, {e}, {b}")
+elif a<d<e<b<c:
+  print(f"{a}, {d}, {e}, {b}, {c}")
+elif a<d<e<c<b:
+  print(f"{a}, {d}, {e}, {c}, {b}")
+elif a<e<b<c<d:
+  print(f"{a}, {e}, {b}, {c}, {d}")
+elif a<e<b<d<c:
+  print(f"{a}, {e}, {b}, {d}, {c}")
+#20
+elif a<e<c<b<d:
+  print(f"{a}, {e}, {c}, {b}, {d}")
+elif a<e<c<d<b:
+  print(f"{a}, {e}, {c}, {d}, {b}")
+elif a<e<d<b<c:
+  print(f"{a}, {e}, {d}, {b}, {c}")
+elif a<e<d<c<b:
+  print(f"{a}, {e}, {d}, {c}, {b}")
+elif b<a<c<d<e:
+  print(f"{b}, {a}, {c}, {d}, {e}")
+#25
+elif b<a<c<e<d:
+  print(f"{b}, {a}, {c}, {e}, {d}")
+elif b<a<d<c<e:
+  print(f"{b}, {a}, {d}, {c}, {e}")
+elif b<a<d<e<c:
+  print(f"{b}, {a}, {d}, {e}, {c}")
+elif b<a<e<c<d:
+  print(f"{b}, {a}, {e}, {c}, {d}")
+elif b<a<e<d<c:
+  print(f"{b}, {a}, {e}, {d}, {c}")
+#30
+elif b<c<a<d<e:
+  print(f"{b}, {c}, {a}, {d}, {e}")
+elif b<c<a<e<d:
+  print(f"{b}, {c}, {a}, {e}, {d}")
+elif b<c<d<a<e:
+  print(f"{b}, {c}, {d}, {a}, {e}")
+elif b<c<d<e<a:
+  print(f"{b}, {c}, {d}, {e}, {a}")
+elif b<c<e<a<d:
+  print(f"{b}, {c}, {e}, {a}, {d}")
+#35
+elif b<c<e<d<a:
+  print(f"{b}, {c}, {e}, {d}, {a}")
+elif b<d<a<c<e:
+  print(f"{b}, {d}, {a}, {c}, {e}")
+elif b<d<a<e<c:
+  print(f"{b}, {d}, {a}, {e}, {c}")
+elif b<d<c<a<e:
+  print(f"{b}, {d}, {c}, {a}, {e}")
+elif b<d<c<e<a:
+  print(f"{b}, {d}, {c}, {e}, {a}")
+#40
+elif b<d<e<a<c:
+  print(f"{b}, {d}, {e}, {a}, {c}")
+elif b<d<e<c<a:
+  print(f"{b}, {d}, {e}, {c}, {a}")
+elif b<e<a<c<d:
+  print(f"{b}, {e}, {a}, {c}, {d}")
+elif b<e<a<d<c:
+  print(f"{b}, {d}, {c}, {e}, {a}")
+elif b<e<c<a<d:
+  print(f"{b}, {e}, {c}, {a}, {d}")
+#45
+elif b<e<c<d<a:
+  print(f"{b}, {e}, {c}, {d}, {a}")
+elif b<e<d<a<c:
+  print(f"{b}, {e}, {d}, {a}, {c}")
+elif b<e<d<c<a:
+  print(f"{b}, {e}, {d}, {c}, {a}")
+elif c<a<b<d<e:
+  print(f"{c}, {a}, {b}, {d}, {e}")
+elif c<a<b<e<d:
+  print(f"{c}, {a}, {b}, {e}, {d}")
+#50
+elif c<a<d<b<e:
+  print(f"{c}, {a}, {d}, {b}, {e}")
+elif c<a<d<e<b:
+  print(f"{c}, {a}, {d}, {e}, {b}")
+elif c<a<e<b<d:
+  print(f"{c}, {a}, {e}, {b}, {d}")
+elif c<a<e<d<b:
+  print(f"{c}, {a}, {e}, {d}, {b}")
+elif c<b<a<d<e:
+  print(f"{c}, {b}, {a}, {d}, {e}")
+#55
+elif c<b<a<e<d:
+  print(f"{c}, {b}, {a}, {e}, {d}")
+elif c<b<d<a<e:
+  print(f"{c}, {b}, {d}, {a}, {e}")
+elif c<b<d<e<a:
+  print(f"{c}, {b}, {d}, {e}, {a}")
+elif c<b<e<a<d:
+  print(f"{c}, {b}, {a}, {d}, {e}")
+elif c<b<e<d<a:
+  print(f"{c}, {b}, {e}, {d}, {a}")
+#60
+elif c<d<a<b<e:
+  print(f"{c}, {d}, {a}, {b}, {e}")
+elif c<d<a<e<b:
+  print(f"{c}, {d}, {a}, {e}, {b}")
+elif c<d<b<a<e:
+  print(f"{c}, {d}, {b}, {a}, {e}")
+elif c<d<b<e<a:
+  print(f"{c}, {d}, {b}, {e}, {a}")
+elif c<d<e<a<b:
+  print(f"{c}, {d}, {e}, {a}, {b}")
+#65
+elif c<d<e<b<a:
+  print(f"{c}, {d}, {e}, {b}, {a}")
+elif c<e<a<b<d:
+  print(f"{c}, {e}, {a}, {b}, {d}")
+elif c<e<a<d<b:
+  print(f"{c}, {e}, {a}, {d}, {b}")
+elif c<e<b<a<d:
+  print(f"{c}, {e}, {b}, {a}, {a}")
+elif c<e<b<d<a:
+  print(f"{c}, {e}, {b}, {d}, {a}")
+#70
+elif c<e<d<a<b:
+  print(f"{c}, {e}, {d}, {a}, {b}")
+elif c<e<d<b<a:
+  print(f"{c}, {e}, {d}, {b}, {a}")
+elif d<a<b<c<e:
+  print(f"{d}, {a}, {b}, {c}, {e}")
+elif d<a<b<e<c:
+  print(f"{d}, {a}, {b}, {e}, {c}")
+elif d<a<c<b<e:
+  print(f"{d}, {a}, {c}, {b}, {e}")
+#75
+elif d<a<c<e<b:
+  print(f"{d}, {a}, {c}, {e}, {b}")
+elif d<a<e<b<c:
+  print(f"{d}, {a}, {e}, {b}, {c}")
+elif d<a<e<c<b:
+  print(f"{d}, {a}, {e}, {c}, {b}")
+elif d<b<a<c<e:
+  print(f"{d}, {b}, {a}, {c}, {e}")
+elif d<b<a<e<c:
+  print(f"{d}, {b}, {a}, {e}, {c}")
+#80
+elif d<b<c<a<e:
+  print(f"{d}, {b}, {c}, {a}, {e}")
+elif d<b<c<e<a:
+  print(f"{d}, {b}, {c}, {e}, {a}")
+elif d<b<e<a<c:
+  print(f"{d}, {b}, {e}, {a}, {c}")
+elif d<b<e<c<a:
+  print(f"{d}, {b}, {e}, {c}, {a}")
+elif d<c<a<b<e:
+  print(f"{d}, {c}, {a}, {b}, {e}")
+#85
+elif d<c<a<e<b:
+  print(f"{d}, {c}, {a}, {e}, {b}")
+elif d<c<b<a<e:
+  print(f"{d}, {c}, {b}, {a}, {e}")
+elif d<c<b<e<a:
+  print(f"{d}, {c}, {b}, {e}, {a}")
+elif d<c<e<a<b:
+  print(f"{d}, {c}, {e}, {a}, {b}")
+elif d<c<e<b<a:
+  print(f"{d}, {c}, {e}, {b}, {a}")
+#90
+elif d<e<a<b<c:
+  print(f"{d}, {e}, {a}, {b}, {c}")
+elif d<e<a<c<b:
+  print(f"{d}, {e}, {a}, {c}, {b}")
+elif d<e<b<a<c:
+  print(f"{d}, {e}, {b}, {a}, {c}")
+elif d<e<b<c<a:
+  print(f"{d}, {e}, {b}, {c}, {a}")
+elif d<e<c<a<b:
+  print(f"{d}, {e}, {c}, {a}, {b}")
+#95
+elif d<e<c<b<a:
+  print(f"{d}, {e}, {c}, {b}, {a}")
+elif e<a<b<c<d:
+  print(f"{e}, {a}, {b}, {c}, {d}")
+elif e<a<b<d<c:
+  print(f"{e}, {a}, {b}, {d}, {c}")
+elif e<a<c<b<d:
+  print(f"{e}, {a}, {c}, {b}, {d}")
+elif e<a<c<d<b:
+  print(f"{e}, {a}, {c}, {d}, {b}")
+#100
+elif e<a<d<b<c:
+  print(f"{e}, {a}, {d}, {b}, {c}")
+elif e<a<d<c<b:
+  print(f"{e}, {a}, {d}, {c}, {b}")
+elif e<b<a<c<d:
+  print(f"{e}, {b}, {a}, {c}, {d}")
+elif e<b<a<d<c:
+  print(f"{e}, {b}, {a}, {d}, {c}")
+elif e<b<c<a<d:
+  print(f"{e}, {b}, {c}, {a}, {d}")
+#105
+elif e<b<c<d<a:
+  print(f"{e}, {b}, {c}, {d}, {a}")
+elif e<b<d<a<c:
+  print(f"{e}, {b}, {d}, {a}, {c}")
+elif e<b<d<c<a:
+  print(f"{e}, {b}, {d}, {c}, {a}")
+elif e<c<a<b<d:
+  print(f"{e}, {c}, {a}, {b}, {d}")
+elif e<c<a<d<b:
+  print(f"{e}, {c}, {a}, {d}, {b}")
+#110
+elif e<c<b<a<d:
+  print(f"{e}, {c}, {b}, {a}, {d}")
+elif e<c<b<d<a:
+  print(f"{e}, {c}, {b}, {d}, {a}")
+elif e<c<d<a<b:
+  print(f"{e}, {c}, {d}, {a}, {b}")
+elif e<c<d<b<a:
+  print(f"{e}, {c}, {d}, {b}, {a}")
+elif e<d<a<b<c:
+  print(f"{e}, {d}, {a}, {b}, {c}")
+#115
+elif e<d<a<c<b:
+  print(f"{e}, {d}, {a}, {c}, {b}")
+elif e<d<b<a<c:
+  print(f"{e}, {d}, {b}, {a}, {c}")
+elif e<d<b<c<a:
+  print(f"{e}, {d}, {b}, {c}, {a}")
+elif e<d<c<a<b:
+  print(f"{e}, {d}, {c}, {a}, {b}")
+elif e<d<c<b<a:
+  print(f"{e}, {d}, {c}, {b}, {a}")
+#120
+print("-------------------------------------------------------")
+
+#Proceso número descendente
+print("-------------------------------------------------------")
+print("Este es el orden descendente:")
+if a > b > c > d > e:
+    print(f"({a},{b},{c},{d},{e})")
+elif a > b > c > e > d:
+    print(f"({a},{b},{c},{e},{d})")
+elif a > b > d > c > e:
+    print(f"({a},{b},{d},{c},{e})")
+elif a > b > d > e > c:
+    print(f"({a},{b},{d},{e},{c})")
+elif a > b > e > c > d:
+    print(f"({a},{b},{e},{c},{d})")
+elif a > b > e > d > c:
+    print(f"({a},{b},{e},{d},{c})")
+elif a > c > b > d > e:
+    print(f"({a},{c},{b},{d},{e})")
+elif a > c > b > e > d:
+    print(f"({a},{c},{b},{e},{d})")
+elif a > c > d > b > e:
+    print(f"({a},{c},{d},{b},{e})")
+elif a > c > d > e > b:
+    print(f"({a},{c},{d},{e},{b})")
+elif a > c > e > b > d:
+    print(f"({a},{c},{e},{b},{d})")
+elif a > c > e > d > b:
+    print(f"({a},{c},{e},{d},{b})")
+elif a > d > b > c > e:
+    print(f"({a},{d},{b},{c},{e})")
+elif a > d > b > e > c:
+    print(f"({a},{d},{b},{e},{c})")
+elif a > d > c > b > e:
+    print(f"({a},{d},{c},{b},{e})")
+elif a > d > c > e > b:
+    print(f"({a},{d},{c},{e},{b})")
+elif a > d > e > b > c:
+    print(f"({a},{d},{e},{b},{c})")
+elif a > d > e > c > b:
+    print(f"({a},{d},{e},{c},{b})")
+elif a > e > b > c > d:
+    print(f"({a},{e},{b},{c},{d})")
+elif a > e > b > d > c:
+    print(f"({a},{e},{b},{d},{c})")
+elif a > e > c > b > d:
+    print(f"({a},{e},{c},{b},{d})")
+elif a > e > c > d > b:
+    print(f"({a},{e},{c},{d},{b})")
+elif a > e > d > b > c:
+    print(f"({a},{e},{d},{b},{c})")
+elif a > e > d > c > b:
+    print(f"({a},{e},{d},{c},{b})")
+elif b > a > c > d > e:
+    print(f"({b},{a},{c},{d},{e})")
+elif b > a > c > e > d:
+    print(f"({b},{a},{c},{e},{d})")
+elif b > a > d > c > e:
+    print(f"({b},{a},{d},{c},{e})")
+elif b > a > d > e > c:
+    print(f"({b},{a},{d},{e},{c})")
+elif b > a > e > c > d:
+    print(f"({b},{a},{e},{c},{d})")
+elif b > a > e > d > c:
+    print(f"({b},{a},{e},{d},{c})")
+elif b > c > a > d > e:
+    print(f"({b},{c},{a},{d},{e})")
+elif b > c > a > e > d:
+    print(f"({b},{c},{a},{e},{d})")
+elif b > c > d > a > e:
+    print(f"({b},{c},{d},{a},{e})")
+elif b > c > d > e > a:
+    print(f"({b},{c},{d},{e},{a})")
+elif b > c > e > a > d:
+    print(f"({b},{c},{e},{a},{d})")
+elif b > c > e > d > a:
+    print(f"({b},{c},{e},{d},{a})")
+elif b > d > a > c > e:
+    print(f"({b},{d},{a},{c},{e})")
+elif b > d > a > e > c:
+    print(f"({b},{d},{a},{e},{c})")
+elif b > d > c > a > e:
+    print(f"({b},{d},{c},{a},{e})")
+elif b > d > c > e > a:
+    print(f"({b},{d},{c},{e},{a})")
+elif b > d > e > a > c:
+    print(f"({b},{d},{e},{a},{c})")
+elif b > d > e > c > a:
+    print(f"({b},{d},{e},{c},{a})")
+elif b > e > a > c > d:
+    print(f"({b},{e},{a},{c},{d})")
+elif b > e > a > d > c:
+    print(f"({b},{e},{a},{d},{c})")
+elif b > e > c > a > d:
+    print(f"({b},{e},{c},{a},{d})")
+elif b > e > c > d > a:
+    print(f"({b},{e},{c},{d},{a})")
+elif b > e > d > a > c:
+    print(f"({b},{e},{d},{a},{c})")
+elif b > e > d > c > a:
+    print(f"({b},{e},{d},{c},{a})")
+elif c > a > b > d > e:
+    print(f"({c},{a},{b},{d},{e})")
+elif c > a > b > e > d:
+    print(f"({c},{a},{b},{e},{d})")
+elif c > a > d > b > e:
+    print(f"({c},{a},{d},{b},{e})")
+elif c > a > d > e > b:
+    print(f"({c},{a},{d},{e},{b})")
+elif c > a > e > b > d:
+    print(f"({c},{a},{e},{b},{d})")
+elif c > a > e > d > b:
+    print(f"({c},{a},{e},{d},{b})")
+elif c > b > a > d > e:
+    print(f"({c},{b},{a},{d},{e})")
+elif c > b > a > e > d:
+    print(f"({c},{b},{a},{e},{d})")
+elif c > b > d > a > e:
+    print(f"({c},{b},{d},{a},{e})")
+elif c > b > d > e > a:
+    print(f"({c},{b},{d},{e},{a})")
+elif c > b > e > a > d:
+    print(f"({c},{b},{e},{a},{d})")
+elif c > b > e > d > a:
+    print(f"({c},{b},{e},{d},{a})")
+elif c > d > a > b > e:
+    print(f"({c},{d},{a},{b},{e})")
+elif c > d > a > e > b:
+    print(f"({c},{d},{a},{e},{b})")
+elif c > d > b > a > e:
+    print(f"({c},{d},{b},{a},{e})")
+elif c > d > b > e > a:
+    print(f"({c},{d},{b},{e},{a})")
+elif c > d > e > a > b:
+    print(f"({c},{d},{e},{a},{b})")
+elif c > d > e > b > a:
+    print(f"({c},{d},{e},{b},{a})")
+elif c > e > a > b > d:
+    print(f"({c},{e},{a},{b},{d})")
+elif c > e > a > d > b:
+    print(f"({c},{e},{a},{d},{b})")
+elif c > e > b > a > d:
+    print(f"({c},{e},{b},{a},{d})")
+elif c > e > b > d > a:
+    print(f"({c},{e},{b},{d},{a})")
+elif c > e > d > a > b:
+    print(f"({c},{e},{d},{a},{b})")
+elif c > e > d > b > a:
+    print(f"({c},{e},{d},{b},{a})")
+elif d > a > b > c > e:
+    print(f"({d},{a},{b},{c},{e})")
+elif d > a > b > e > c:
+    print(f"({d},{a},{b},{e},{c})")
+elif d > a > c > b > e:
+    print(f"({d},{a},{c},{b},{e})")
+elif d > a > c > e > b:
+    print(f"({d},{a},{c},{e},{b})")
+elif d > a > e > b > c:
+    print(f"({d},{a},{e},{b},{c})")
+elif d > a > e > c > b:
+    print(f"({d},{a},{e},{c},{b})")
+elif d > b > a > c > e:
+    print(f"({d},{b},{a},{c},{e})")
+elif d > b > a > e > c:
+    print(f"({d},{b},{a},{e},{c})")
+elif d > b > c > a > e:
+    print(f"({d},{b},{c},{a},{e})")
+elif d > b > c > e > a:
+    print(f"({d},{b},{c},{e},{a})")
+elif d > b > e > a > c:
+    print(f"({d},{b},{e},{a},{c})")
+elif d > b > e > c > a:
+    print(f"({d},{b},{e},{c},{a})")
+elif d > c > a > b > e:
+    print(f"({d},{c},{a},{b},{e})")
+elif d > c > a > e > b:
+    print(f"({d},{c},{a},{e},{b})")
+elif d > c > b > a > e:
+    print(f"({d},{c},{b},{a},{e})")
+elif d > c > b > e > a:
+    print(f"({d},{c},{b},{e},{a})")
+elif d > c > e > a > b:
+    print(f"({d},{c},{e},{a},{b})")
+elif d > c > e > b > a:
+    print(f"({d},{c},{e},{b},{a})")
+elif d > e > a > b > c:
+    print(f"({d},{e},{a},{b},{c})")
+elif d > e > a > c > b:
+    print(f"({d},{e},{a},{c},{b})")
+elif d > e > b > a > c:
+    print(f"({d},{e},{b},{a},{c})")
+elif d > e > b > c > a:
+    print(f"({d},{e},{b},{c},{a})")
+elif d > e > c > a > b:
+    print(f"({d},{e},{c},{a},{b})")
+elif d > e > c > b > a:
+    print(f"({d},{e},{c},{b},{a})")
+elif e > a > b > c > d:
+    print(f"({e},{a},{b},{c},{d})")
+elif e > a > b > d > c:
+    print(f"({e},{a},{b},{d},{c})")
+elif e > a > c > b > d:
+    print(f"({e},{a},{c},{b},{d})")
+elif e > a > c > d > b:
+    print(f"({e},{a},{c},{d},{b})")
+elif e > a > d > b > c:
+    print(f"({e},{a},{d},{b},{c})")
+elif e > a > d > c > b:
+    print(f"({e},{a},{d},{c},{b})")
+elif e > b > a > c > d:
+    print(f"({e},{b},{a},{c},{d})")
+elif e > b > a > d > c:
+    print(f"({e},{b},{a},{d},{c})")
+elif e > b > c > a > d:
+    print(f"({e},{b},{c},{a},{d})")
+elif e > b > c > d > a:
+    print(f"({e},{b},{c},{d},{a})")
+elif e > b > d > a > c:
+    print(f"({e},{b},{d},{a},{c})")
+elif e > b > d > c > a:
+    print(f"({e},{b},{d},{c},{a})")
+elif e > c > a > b > d:
+    print(f"({e},{c},{a},{b},{d})")
+elif e > c > a > d > b:
+    print(f"({e},{c},{a},{d},{b})")
+elif e > c > b > a > d:
+    print(f"({e},{c},{b},{a},{d})")
+elif e > c > b > d > a:
+    print(f"({e},{c},{b},{d},{a})")
+elif e > c > d > a > b:
+    print(f"({e},{c},{d},{a},{b})")
+elif e > c > d > b > a:
+    print(f"({e},{c},{d},{b},{a})")
+elif e > d > a > b > c:
+    print(f"({e},{d},{a},{b},{c})")
+elif e > d > a > c > b:
+    print(f"({e},{d},{a},{c},{b})")
+elif e > d > b > a > c:
+    print(f"({e},{d},{b},{a},{c})")
+elif e > d > b > c > a:
+    print(f"({e},{d},{b},{c},{a})")
+elif e > d > c > a > b:
+    print(f"({e},{d},{c},{a},{b})")
+elif e > d > c > b > a:
+    print(f"({e},{d},{c},{b},{a})")
+print("-------------------------------------------------------")
+
+#Proceso potencia del mayor número elevado al menor número
+print("-------------------------------------------------------")
+#Hallar el mayor número
+if a>b and a>c and a>d and a>e:
+  mayor=a
+elif b>a and b>c and b>d and b>e:
+  mayor=b
+elif c>a and c>b and c>d and c>e:
+  mayor=c
+elif d>a and d>b and d>c and d>e:
+  mayor=d
+elif e>a and e>b and e>c and e>d:
+  mayor=e
+if a<b and a<c and a<d and a<e:
+  menor=a
+elif b<a and b<c and b<d and b<e:
+  menor=b
+elif c<a and c<b and c<d and c<e:
+  menor=c
+elif d<a and d<b and d<c and d<e:
+  menor=d
+elif e<a and e<b and e<c and e<d:
+  menor=e
+potencia=mayor**menor
+print(f"La potencia del mayor número elevado al menor número es: {potencia}")
+print("-------------------------------------------------------")
+
+# Proceso raíz cúbica
+print("-------------------------------------------------------")
+print("Esta es la raiz cúbica del número menor")
+#Definición que número es menor
+if a<b and a<c and a<d and a<e:
+  cubica_a=a**(1/3)
+  print(cubica_a)
+elif b<a and b<c and b<d and b<e:
+  cubica_b = float = b**(1/3)
+  print(cubica_b)
+elif c<b and c<a and c<d and c<e:
+  cubica_c = float = c**(1/3)
+  print(cubica_c)
+elif d<b and d<a and d<c and d<e:
+  cubica_d = float = d**(1/3)
+  print(cubica_d)
+elif e<b and e<a and e<d and e<c:
+  cubica_e = float = e**(1/3)
+  print(cubica_e)
+print("-------------------------------------------------------")
 ```
 ### 8. Enunciado: Escriba un programa al que se le ingrese la frecuencia de una onda en hz y como salida arroje en que parte del espectro electromagnético se encuentra.
 *  El objetivo de este punto era recibir una frecuencia de onda en Hz y determinar en que parte del espectro electromagnético se encontraba.

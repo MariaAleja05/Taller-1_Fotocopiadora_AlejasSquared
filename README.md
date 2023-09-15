@@ -3,7 +3,7 @@
 ### **Nombre del equipo:** Fotocopiadoras Industriales
 ### **Logo:** (FALTA)
 ### 1. El resultado de nuestro Python Beginner Quiz:
-<img width="960" alt="Test Python" src="https://github.com/MariaAleja05/Taller_1_Fotocopiadoras_Industriales/assets/141857519/5b299a04-2a20-4b15-8a97-37c3312a00ca">
+<img width="960" alt="Test Python" src="https://github.com/MariaAleja05/Taller-1_Fotocopiadoras-Industriales/assets/141857519/dd8f14b5-9e37-45e6-90c7-20cff5a15d02">
 
 ### 2. Realice un programa que lea tres números reales y determine cuál es el mayor.
 * Para este punto debíamos realizar un programa que leyera tres números reales y determinara cuál es el mayor.

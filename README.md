@@ -35,7 +35,7 @@ elif c > a and c > b:
   Primero determinamos cúales serían nuestras variables y de que tipo serían (n : int = 0)
   Despues para determinar si es par, haciendo uso de un condicional, calculamos si el residuo de este número dividido entre 2 era 0, ya que todo número par es divisible por 2 este debería ser su resultado si resulta ser afirmativo.
   De no ser así, significa que el número ingresado es impar.
-* Ver documento: Punto_3
+* Ver documento: Punto_3.ipynb
 ```pseudocode
 print("-------------------------------------------------------")
 print("Determinar si el número entero es par o impar")
@@ -73,7 +73,7 @@ else:
 * En este programa se debe determinar si la suma total de dos números ingresados es mayor, menor o igual que un tercer número.
   Primero, determinamos cuáles serían nuestras variables y realizamos un código para que el usuario ingresara tres números.
   Después, realizamos la suma de los dos primeros números ingresados y, para determinar su relación con respecto al tercer número, mediante el uso de condicionales; igualamos, utilizamos el signo de mayor que, y el signo de menor que. Para el enunciado con que la suma resulte verdadera, el programa mostrará con cuál de estos casos se relaciona.
-* Ver documento: Punto_5
+* Ver documento: Punto_5.ipynb
 * Diagrama de flujo:
 ```mermaid
 flowchart TB;
@@ -150,7 +150,7 @@ elif n == "q" or n == "w"  or n == "r" or n == "t" or n == "y" or n == "p" or n 
 - La potencia del mayor número elevado al menor número
 - La raíz cúbica del menor número
 * Puedes ver la explicación de este ejercicio en el siguiente link: (SUBIR LINK DE YOUTUBE)
-* Ver documento: Punto_7 - Quita sueño 3000
+* Ver documento: Punto_7.ipynb
 ```pseudocode
 print("-------------------------------------------------------")
 print("Calcular el promedio, mediana, promedio multiplicativo, ordenar los números de manera ascendente y descendente, potencia del mayor número y raíz cúbica menor número")
@@ -802,7 +802,7 @@ elif 10**18 <= n < 10**20:
 * Este programa muestra la capital de un país ingresado por el usuario.
   Primero, determinamos nuestras variables y haciendo uso de: *lower()* nos aseguramos de que todas las letras del país ingresado por el usuario quedaran definidas en letras minúsculas.
   Despues, realizamos una serie de condicionales para cada país del contiente americano donde dentro del condicional se busca que el país ingresado corresponda a esa opción y, en caso de ser afirmativo el programa mostrará la capital de este mismo.
-* Ver documento: Punto_9
+* Ver documento: Punto_9.ipynb
 ```pseudocode
 print("-------------------------------------------------------")
 print("Determinar la capital del pais de América ingresado")

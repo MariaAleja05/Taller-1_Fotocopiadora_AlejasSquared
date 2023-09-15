@@ -115,7 +115,7 @@ elif n == "q" or n == "w"  or n == "r" or n == "t" or n == "y" or n == "p" or n 
 - Ordenar los números de forma descendente
 - La potencia del mayor número elevado al menor número
 - La raíz cúbica del menor número
-* (EXPLICACIÓN)
+* Aquí subimos el videíto de la explicación porque está un poquito larga 
 ```pseudocode
 
 ```

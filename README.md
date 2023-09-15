@@ -151,7 +151,7 @@ elif n == "q" or n == "w"  or n == "r" or n == "t" or n == "y" or n == "p" or n 
 - La potencia del mayor número elevado al menor número
 - La raíz cúbica del menor número
 * Puedes ver la explicación de este ejercicio en el siguiente link: (SUBIR LINK DE YOUTUBE)
-* Ver documento: Punto_7.ipynb
+* Ver documento: Quita_sueños_3000.ipynb
 ```pseudocode
 print("-------------------------------------------------------")
 print("Calcular el promedio, mediana, promedio multiplicativo, ordenar los números de manera ascendente y descendente, potencia del mayor número y raíz cúbica menor número")

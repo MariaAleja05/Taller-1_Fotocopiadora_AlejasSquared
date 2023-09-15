@@ -3,7 +3,7 @@
 ### **Nombre del equipo:** Fotocopiadoras Industriales
 ### **Logo:** (FALTA)
 ### 1. El resultado de nuestro Python Beginner Quiz:
-    (INGRESAR FOTO)
+    <img width="960" alt="Test Python" src="https://github.com/MariaAleja05/Taller_1_Fotocopiadoras_Industriales/assets/141857519/5b299a04-2a20-4b15-8a97-37c3312a00ca">
 ### 2. Realice un programa que lea tres números reales y determine cuál es el mayor.
 * Para este punto debíamos realizar un programa que leyera tres números reales y determinara cuál es el mayor.
   Primero declaramos que las variables que ingresara el usuario debian ser números reales (float), y posteriormente con una estructura if-elif comparamos cada una de las variables para determinar la mayor.

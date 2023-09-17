@@ -3,6 +3,7 @@
 ### **Nombre del equipo:** Fotocopiadora AlejasSquared
   **Integrantes del equipo:** María Alejandra Niño Peña y María Alejandra Varela
 ### **Logo:** (FALTA)
+### Nota: Si usted es un estudiante que está tomando como referencia mi trabajo porfavor déjame una estrellita por mi esfuerzo :)
 ### 1. El resultado de nuestro Python Beginner Quiz:
 <img width="960" alt="Test Python" src="https://github.com/MariaAleja05/Taller-1_Fotocopiadoras-Industriales/assets/141857519/dd8f14b5-9e37-45e6-90c7-20cff5a15d02">
 

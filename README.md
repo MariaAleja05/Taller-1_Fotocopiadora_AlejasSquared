@@ -2,7 +2,10 @@
 ### Fecha:  13-09-2023
 ### **Nombre del equipo:** Fotocopiadora AlejasSquared
   **Integrantes del equipo:** María Alejandra Niño Peña y María Alejandra Varela
-### **Logo:** (FALTA)
+### **Logo** (Todavia está en construcción, este es el borrador):
+![image](https://github.com/MariaAleja05/Taller-1_Fotocopiadora_AlejasSquared/assets/141885396/ae473d90-23e8-4a59-8ffc-93432e697ef3)
+
+
   **Nota: Si usted está tomando como referencia nuestro trabajo porfavor déjanos una estrellita por nuestro propio esfuerzo :)**
 ### 1. El resultado de nuestro Python Beginner Quiz:
 <img width="960" alt="Test Python" src="https://github.com/MariaAleja05/Taller-1_Fotocopiadoras-Industriales/assets/141857519/dd8f14b5-9e37-45e6-90c7-20cff5a15d02">
@@ -128,7 +131,14 @@ else:
 * Ver documento: Sonidos_y_maneras.py
 * Diagrama de flujo:
 ```mermaid
-(DIAGRAMA)
+flowchart TB;
+    A([START])--> C[Ingrese una letra :]
+    C --> K[/n/]
+    K-->L{n == a or n == e or n == i or n == o or n == u or n == E or n == I or n == O or n == U or n == A}
+    L -- SI --> M["(n) Es una vocal"]--> X([END])
+    L -- NO --> N{n == q or n == w  or n == r or n == t or n == y or n == p or n == s or n == d or n == f or n == g or n == h or n == j or n == k or n == l or n == z or n ==  x or n == c or n == v or n == b or n == n or n == m or n == Q or n == W  or n == R or n == T or n == Y or n == P or n == S or n == D or n == F or n == G or n == H or n == J or n == K or n == L or n == Z or n == X or n == C or n == V or n == B or n == N or n == M}
+    N -- SI --> O[" (n) Es una consonante"]-->X 
+   
 ```
 * Código:
 ```pseudocode
@@ -151,7 +161,7 @@ elif n == "q" or n == "w"  or n == "r" or n == "t" or n == "y" or n == "p" or n 
 - Ordenar los números de forma descendente
 - La potencia del mayor número elevado al menor número
 - La raíz cúbica del menor número
-* Puedes ver la explicación de este ejercicio en el siguiente link: (SUBIR LINK DE YOUTUBE)
+* Puedes ver la explicación de este ejercicio en el siguiente link: (https://youtu.be/dlOjBI2FreM?si=IJmu5vjTGsCC6bGM)
 * Ver documento: Quita_sueños_3000.ipynb
 ```pseudocode
 print("-------------------------------------------------------")

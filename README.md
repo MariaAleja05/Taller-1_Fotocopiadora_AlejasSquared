@@ -162,6 +162,10 @@ elif n == "q" or n == "w"  or n == "r" or n == "t" or n == "y" or n == "p" or n 
 - La potencia del mayor número elevado al menor número
 - La raíz cúbica del menor número
 * Puedes ver la explicación de este ejercicio en el siguiente link: (https://youtu.be/dlOjBI2FreM?si=IJmu5vjTGsCC6bGM)
+* Más de 140 vistas en 6 horas y 40 likes :)
+![image](https://github.com/MariaAleja05/Taller-1_Fotocopiadora_AlejasSquared/assets/141885396/cb612dca-25fa-43bf-9616-910cb7ba7a07)
+![image](https://github.com/MariaAleja05/Taller-1_Fotocopiadora_AlejasSquared/assets/141885396/78e1aec4-d70f-4599-b03c-88db8803c6c2)
+
 * Ver documento: Quita_sueños_3000.ipynb
 ```pseudocode
 print("-------------------------------------------------------")

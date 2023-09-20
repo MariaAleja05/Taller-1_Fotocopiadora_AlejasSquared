@@ -162,7 +162,8 @@ elif n == "q" or n == "w"  or n == "r" or n == "t" or n == "y" or n == "p" or n 
 - La raíz cúbica del menor número
 * Puedes ver la explicación de este ejercicio en el siguiente link: (https://youtu.be/dlOjBI2FreM?si=IJmu5vjTGsCC6bGM)
 * Más de 180 vistas en 6 horas y 47 likes :)
-<img width="494" alt="Screenshot 2023-09-20 115631" src="https://github.com/MariaAleja05/Taller-1_Fotocopiadora_AlejasSquared/assets/141857519/eebfa83b-4d9a-41b7-976a-9c6d78729569">
+<img width="600" alt="Screenshot 2023-09-20 115631" src="https://github.com/MariaAleja05/Taller-1_Fotocopiadora_AlejasSquared/assets/141857519/eebfa83b-4d9a-41b7-976a-9c6d78729569">
+
 ![image](https://github.com/MariaAleja05/Taller-1_Fotocopiadora_AlejasSquared/assets/141885396/78e1aec4-d70f-4599-b03c-88db8803c6c2)
 
 * Ver documento: Quita_sueños_3000.ipynb

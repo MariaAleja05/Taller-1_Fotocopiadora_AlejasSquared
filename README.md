@@ -2,9 +2,8 @@
 ### Fecha:  13-09-2023
 ### **Nombre del equipo:** Fotocopiadora AlejasSquared
   **Integrantes del equipo:** María Alejandra Niño Peña y María Alejandra Varela
-### **Logo** (Todavia está en construcción, este es el borrador):
-![image](https://github.com/MariaAleja05/Taller-1_Fotocopiadora_AlejasSquared/assets/141885396/ae473d90-23e8-4a59-8ffc-93432e697ef3)
-
+### **Logo**:
+![Black   White Minimalist Aesthetic Initials Font Logo](https://github.com/MariaAleja05/Taller-1_Fotocopiadora_AlejasSquared/assets/141857519/21d404e4-cf8f-42fb-9168-805f1a8bd2f0)
 
   **Nota: Si usted está tomando como referencia nuestro trabajo porfavor déjanos una estrellita por nuestro propio esfuerzo :)**
 ### 1. El resultado de nuestro Python Beginner Quiz:
@@ -162,8 +161,8 @@ elif n == "q" or n == "w"  or n == "r" or n == "t" or n == "y" or n == "p" or n 
 - La potencia del mayor número elevado al menor número
 - La raíz cúbica del menor número
 * Puedes ver la explicación de este ejercicio en el siguiente link: (https://youtu.be/dlOjBI2FreM?si=IJmu5vjTGsCC6bGM)
-* Más de 140 vistas en 6 horas y 40 likes :)
-![image](https://github.com/MariaAleja05/Taller-1_Fotocopiadora_AlejasSquared/assets/141885396/cb612dca-25fa-43bf-9616-910cb7ba7a07)
+* Más de 180 vistas en 6 horas y 47 likes :)
+<img width="494" alt="Screenshot 2023-09-20 115631" src="https://github.com/MariaAleja05/Taller-1_Fotocopiadora_AlejasSquared/assets/141857519/eebfa83b-4d9a-41b7-976a-9c6d78729569">
 ![image](https://github.com/MariaAleja05/Taller-1_Fotocopiadora_AlejasSquared/assets/141885396/78e1aec4-d70f-4599-b03c-88db8803c6c2)
 
 * Ver documento: Quita_sueños_3000.ipynb
